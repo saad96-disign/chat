@@ -1,0 +1,42 @@
+.chatColumn, .chatLine, .avatarLeft{/*Annulation du pading du chat a gauche */
+padding-left: 0;
+}
+
+.chat{/*le blog de chat */
+	height: 262px;
+	overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.chatMenu,.avatar,.chatLineLeft{ /*Annulation du pading du menu a droite */
+	padding-right: 0; 
+}
+.saisis{
+	padding-left: 0;
+}
+
+
+ 
+.saad, .rouki{
+	width: 80px;
+	height: 80px;
+	background: url(../img/1.jpg);
+	background-size: cover;
+}
+
+.rouki{
+	background: url(../img/2.jpg);
+	background-size: cover;
+}
+.chatContent .row{
+	padding-top: 10px;
+}
+.chatLine .breadcrumb  {
+	margin-top: 10px;
+    margin-right: 110px;
+}
+
+.chatLineLeft .breadcrumb{  
+	margin-top: 10px;
+    margin-left: 110px;
+}
